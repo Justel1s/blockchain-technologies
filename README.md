@@ -51,7 +51,7 @@ Spausdinimas hash
 
 ## Eksperimentinis tyrimas ir rezultatų analizė
 
-####Konstitucija
+#### Konstitucija
 
 | Eilučių skaičius  | Time (s)  |
 |-------------------|-----------|
@@ -67,11 +67,11 @@ Spausdinimas hash
 | 512               | 0.00052612|
 | 1024              | 0.00093906|
 
-![alt text][nuotrauka.png]
+![alt text](nuotrauka.png)
 
 | Failas                                        | Hash’as                                                           |
 |--------------------------------------------------|----------------------------------------------------------------|
-| empty.txt                              | Klaida |
+| tuscias.txt                              | Klaida |
 | testas/1.txt                                  | 4942a799987a7ab4c6d6416b478cf9022d0e57f3a98a8dcbdefd506d20cfea25 |
 | testas/2.txt                                  | fdf5209be862f4a2838132aa4e27e3495aadf04c2ab8655a9a268ab919a5f28a |
 | testas/tukstantis1.txt                        | cbfa598998e52d1ec06149f43447edf9aeea73eb90165f7adb71c5a67df39568 |
@@ -84,5 +84,8 @@ Bitu lygmeny: 53.91
 Hexu lygmeny: 96.88
 Vidutinis: 75.39
 
-
 0 kolizijų
+
+## Refleksija
+Galbūt trūksta operacijų su bitais, daugiau shuffle, kodas pakankamai greitai veikia, esu įterpęs savo vardo pirmą raidę NATO abėcėlėje ir pavardės pirmą raidę, taip pat yra smėlio.
+
